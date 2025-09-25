@@ -1,4 +1,5 @@
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import React, { createContext, useContext, useState, useEffect } from 'react';
+import type { ReactNode } from 'react';
 import { ethers } from 'ethers';
 import BuymeACoffeeABI from '../contracts/BuymeACoffee.json';
 import { CONTRACT_ADDRESS, addLiskSepoliaNetwork } from '../utils/networkConfig';
